@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BrideStory | Our Team</title>
+	<link rel="stylesheet" type="text/css" href="css/team.css">
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("myBtn").style.display = "block";
+    } else {
+      document.getElementById("myBtn").style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script> 
+	<div class="main">
+    <ul class="nav">
+        <li class="img"><img src="imgrizki/bs.png"></li>
+        <li class="login" style="float: right"><a href="#login_form" id="login_popup" style="float: right">Login</a></li>
+        <li class="sign" style="float: right"><a href="#signup_form" id="signup_popup">Sign Up</a></li>
+         <li class="about" style="float: right "><a href="about.html" style="float: right">ABOUT US</a></li>
+            <li class="dropdown-services" style="float:right;">
+                <a href="javascript:void(0)" class="dropbtn">SERVICES</a>
+                <div class="dropdown-content" >
+                  <a href="makeup.html">Make Up Artist</a>
+                  <a href="dress.html">Dress</a>
+                  <a href="rings.html">Ring & Accesories</a>
+                  <a href="gallery.html">Gallery</a>
+                  <a href="invitation.html">Invitations</a>
+                  <a href="honey moon.html">Honeymoon</a>
+                </div>
+              </li>
+              <li class="testimoni" style="float: right"><a href="testimoni.html">TESTIMONI</a></li>
+              <li class="dropdown-inspiration" style="float:right;">
+                <a href="javascript:void(0)" class="dropbtn">INSPIRATIONS</a>
+                <div class="dropdown-content">
+                  <a href="event.html">Event</a>
+                  <a href="team.html">Team</a>
+                </div>
+              </li>
+              <li class="home" style="float: right"><a href="homepage.html">HOME</a></li>
+          </ul>
+  </div>
+<!-- popup form login #1 -->
+<a href="#x" class="overlay" id="login_form"></a>
+<div class="popup">
+    <div class="window">
+        <div>
+            <form action="/action_page.php">
+              <img src="imgrizki/bs.png"><br>
+              <h2>Welcome Dear!</h2>
+              <p>Please enter your email and password here</p> <br>
+              <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+              <input type="password" id="password" name="password" placeholder="password" required><br><br>
+              <a href="home.html">
+              <input type="button" value="Login">
+              </a>
+              <a class="close" href="#close"></a>
+              <br><br>
+              <u>Forgot password?</u><br><br>
+              Are you vendor?<br>
+              <u>Log into your account</u><br><br><br>
+              Not a member yet? <u>Join now!</u>
+            </form>
+          </div>
+    </div>
+</div>
+
+<!-- popup form Sign Up #2 -->
+<a href="#x" class="overlay" id="signup_form"></a>
+<div class="popup">
+    <div class="window">
+        <div>
+            <form>
+              <img src="imgrizki/bs.png"><br>
+              <h3>Your Personal Wedding Plan Start Now</h3>
+              <p>Advice, tools and the best vendors to have a wedding that's uniquely you (cue the confelti!)</p><br>
+              <input type="text" id="text" name="text" placeholder="Your name" required><br><br>
+              <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+              <input type="password" id="password" name="password" placeholder="password" required><br><br>
+              <a href="home.html">
+              <input type="button" value="Sign Up">
+              </a>
+              <a class="close" href="#close"></a>
+              <br>
+              <p>By Sign up you agree to our Terms and Privacy Policy</p>
+            </form>
+          </div>
+    </div>
+</div>
+      <!-- end of navbar -->
+<br>
+
+<p id="corner2">D R E S S </p>
+<div class="container">
+  <img src="imgrizki/pelengkap/shutterstock_768169024.jpg" alt="Avatar" class="image" width="1200px">
+  <div class="overlayy">
+    <div class="text">Dress like a queen for a day</div>
+  </div>
+</div>
+<div class="container">
+  <img src="imgrizki/pelengkap/Fun-Bow-Ties.jpg" alt="Avatar" class="image" width="1200px">
+  <div class="overlayy">
+    <div class="text">Dress like a king for a day</div>
+  </div>
+</div>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Phone</th>
+  </tr>
+  <tr>
+    <td>Peter Griffin</td>
+    <td>Sleman</td>
+    <td>089789764346</td>
+  </tr>
+  <tr>
+    <td>Lois Griffin</td>
+    <td>Bantul</td>
+    <td>085676532289</td>
+  </tr>
+  <tr>
+    <td>Joe Swanson</td>
+    <td>Kulonprogo</td>
+    <td>087778786433</td>
+  </tr>
+  <tr>
+    <td>Clevelan Brk</td>
+    <td>Kalasan</td>
+    <td>085228765799</td>
+  </tr>
+</table>
+
+<p id="corner2">A T T I R E</p>
+<div class="container">
+  <img src="imgrizki/pelengkap/shutterstock_116622685.jpg" alt="Avatar" class="image" width="1200px">
+  <div class="overlayy">
+    <div class="text">Rings are better in your finger</div>
+  </div>
+</div>
+<div class="container">
+  <img src="imgrizki/pelengkap/beautiful-bouquet-bridal-313707.jpg" alt="Avatar" class="image" width="1200px">
+  <div class="overlayy">
+    <div class="text">Perfect shoes, rings, headcrowns, and etc.</div>
+  </div>
+</div>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Phone</th>
+  </tr>
+  <tr>
+    <td>Peter Griffin</td>
+    <td>Sleman</td>
+    <td>089789764346</td>
+  </tr>
+  <tr>
+    <td>Lois Griffin</td>
+    <td>Bantul</td>
+    <td>085676532289</td>
+  </tr>
+  <tr>
+    <td>Joe Swanson</td>
+    <td>Kulonprogo</td>
+    <td>087778786433</td>
+  </tr>
+  <tr>
+    <td>Cleveland Brown</td>
+    <td>Kalasan</td>
+    <td>085228765799</td>
+  </tr>
+</table>
+
+<p id="corner2">C R E A T I V E </p>
+<div class="container">
+  <img src="imgrizki/pelengkap/blur-candle-candlestick-1128783.jpg" alt="Avatar" class="image" width="1200px">
+  <div class="overlayy">
+    <div class="text">Pick your venue by your own</div>
+  </div>
+</div>
+<div class="container">
+  <img src="imgrizki/pelengkap/ceremonial-chairs-curtain-1804684.jpg" alt="Avatar" class="image" width="1200px">
+  <div class="overlayy">
+    <div class="text">Creativity without boundary</div>
+  </div>
+</div>
+<br>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Phone</th>
+  </tr>
+  <tr>
+    <td>Peter Griffin</td>
+    <td>Sleman</td>
+    <td>089789764346</td>
+  </tr>
+  <tr>
+    <td>Lois Griffin</td>
+    <td>Bantul</td>
+    <td>085676532289</td>
+  </tr>
+  <tr>
+    <td>Joe Swanson</td>
+    <td>Kulonprogo</td>
+    <td>087778786433</td>
+  </tr>
+  <tr>
+    <td>Cleveland Brown</td>
+    <td>Kalasan</td>
+    <td>085228765799</td>
+  </tr>
+</table>
+
+<!-- FOOTER -->
+	<div class="clear"></div>
+	
+<div class="ngisor">
+      <div class="footer-grids">
+        <div class="footer siji">
+          <h3>More About Company</h3>
+          <p>Wedding Organizer is a special service that helps prospective brides & families in the planning and supervision of the implementation of a series of wedding parties in accordance with a predetermined schedule. WO also manages wedding events from the start of the marriage contract, traditional ceremonies, aids, catering, bridal makeup, documentation and others. In 1989 Ms. Yayah Rumdayah formed a Wedding Organizer which was named the WO bridestory.</p>
+          <div class="clear"></div>
+        </div>
+        <div class="footer loro">
+          <h3>Keep Connected</h3>
+          <ul>
+            <li><a class="fb" href="#"><i></i>Like us on Facebook</a></li>
+            <li><a class="fb1" href="#"><i></i>Follow us on Twitter</a></li>
+            <li><a class="fb2" href="#"><i></i>Add us on Google Plus</a></li>
+            <li><a class="fb3" href="#"><i></i>Follow us on Dribbble</a></li>
+            <li><a class="fb4" href="#"><i></i>Follow us on Pinterest</a></li>
+          </ul>
+        </div>
+        <div class="footer telu">
+          <h3>Contact Information</h3>
+          <ul>
+            <li>Bride Story <span>Yogyakarta</span>jl. janti no 543241</li>
+            <li>1234567890  </li>
+            <li><a href="mailto:info@example.com">mail@bridestory.com</a> </li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="ngisordewe">
+        <div class="dewe-mid">
+            <p class="footer-gd">© 2019 BrideStory. All Rights Reserved | Design by <a href="https://bridestory.com/" target="_blank">BrideStory</a></p>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>    
+	
+</body>
+</html>

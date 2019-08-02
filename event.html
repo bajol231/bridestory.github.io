@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>BrideStory | Event</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BrideStory | Inspiration_Event</title>
+    <link rel="stylesheet" href="css/event.css">
+    <link rel="stylesheet" href="css/styleevent.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css" media="all" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Coustard:900' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Rochester' rel='stylesheet' type='text/css' />
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <section>
+        <!-- navbar -->
+	<div class="main">
+            <ul class="nav">
+                <li class="img"><img src="img_dista/bs.png"></li>
+                <li class="login" style="float: right"><a href="#login_form" id="login_popup" style="float: right">Login</a></li>
+                <li class="sign" style="float: right"><a href="#signup_form" id="signup_popup">Sign Up</a></li>
+                <li class="about" style="float: right "><a href="about.html" style="float: right">ABOUT US</a></li>
+            <li class="dropdown-services" style="float:right;">
+                <a href="javascript:void(0)" class="dropbtn">SERVICES</a>
+                <div class="dropdown-content" >
+                  <a href="makeup.html">Make Up Artist</a>
+                  <a href="dress.html">Dress</a>
+                  <a href="rings.html">Ring & Accesories</a>
+                  <a href="gallery.html">Gallery</a>
+                  <a href="invitation.html">Invitations</a>
+                  <a href="honey moon.html">Honeymoon</a>
+                </div>
+              </li>
+              <li class="testimoni" style="float: right"><a href="testimoni.html">TESTIMONI</a></li>
+              <li class="dropdown-inspiration" style="float:right;">
+                <a href="javascript:void(0)" class="dropbtn">INSPIRATIONS</a>
+                <div class="dropdown-content">
+                  <a href="event.html">Event</a>
+                  <a href="team.html">Team</a>
+                </div>
+              </li>
+              <li class="home" style="float: right"><a href="homepage.html">HOME</a></li>
+          </ul>
+          </div>
+        <!-- popup form login #1 -->
+        <a href="#x" class="overlay" id="login_form"></a>
+        <div class="popup">
+            <div class="window">
+                <div>
+                    <form action="/action_page.php">
+                      <img src="img_dista/bs.png"><br>
+                      <h2>Welcome Dear!</h2>
+                      <p>Please enter your email and password here</p> <br>
+                      <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+                      <input type="password" id="password" name="password" placeholder="password" required><br><br>
+                      <a href="home.html">
+                      <input type="button" value="Login">
+                      </a>
+                      <a class="close" href="#close"></a>
+                      <br><br>
+                      <u>Forgot password?</u><br><br>
+                      Are you vendor?<br>
+                      <u>Log into your account</u><br><br><br>
+                      Not a member yet? <u>Join now!</u>
+                    </form>
+                  </div>
+            </div>
+        </div>
+        
+        <!-- popup form Sign Up #2 -->
+        <a href="#x" class="overlay" id="signup_form"></a>
+        <div class="popup">
+            <div class="window">
+                <div>
+                    <form>
+                      <img src="img_dista/bs.png"><br>
+                      <h3>Your Personal Wedding Plan Start Now</h3>
+                      <p>Advice, tools and the best vendors to have a wedding that's uniquely you (cue the confelti!)</p><br>
+                      <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+                      <input type="password" id="password" name="password" placeholder="password" required><br><br>
+                      <a href="home.html">
+                      <input type="button" value="Sign Up">
+                      </a>
+                      <a class="close" href="#close"></a>
+                      <br>
+                      <p>By Sign up you agree to our Terms and Privacy Policy</p>
+                    </form>
+                  </div>
+            </div>
+        </div>
+              <!-- end of navbar -->
+    </section>
+
+    <section>
+        <div class="title">
+            <hr color="#e6e7e8">
+            <h1>INSPIRATIONS BOARD <br>
+               <font color="black" size="18px">Wedding Events</font>
+            </h1>
+            <div class="isi">
+              <center>
+                  <img src="img_dista\ban.jpg" alt="" width="1230px">
+              </center>
+            </div>
+        </div>
+    </section>
+
+    <section>
+      <div class="scroll">
+        <font size="24px" color="#e675ab"><b>Real Wedding</b></font> 
+          <p>Browse by location to find wedding professionals in your area and view photos of their work</p>
+        <div id="ca-container" class="ca-container">
+          <div class="ca-wrapper">
+            <div class="ca-item ca-item-1">
+              <div class="ca-item-main">
+                <div class="ca-icon"></div>
+                <img src="img_dista/v1.jpg" alt="">
+                <h4>
+                  <span>  The greatness of a nation and its moral progress can be judged by the way in which its animals are treated.</span>
+                </h4>
+                  <a href="#" class="ca-more">more...</a>
+              </div>
+              <div class="ca-content-wrapper">
+                <div class="ca-content">
+                  <h6>Find your wedding style</h6>
+                  <a href="#" class="ca-close">close</a>
+                  <div class="ca-content-text">
+                    <p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+                    <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+                    <p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ca-item ca-item-2">
+              <div class="ca-item-main">
+                <div class="ca-icon"></div>
+                <img src="img_dista/v2.jpg" alt="">
+                <h4>
+                  <span>I hold that the more helpless a creature, the more entitled it is to protection by man from the cruelty of man.</span>
+                </h4>
+                  <a href="#" class="ca-more">more...</a>
+              </div>
+              <div class="ca-content-wrapper">
+                <div class="ca-content">
+                  <h6>Find your wedding style</h6>
+                  <a href="#" class="ca-close">close</a>
+                  <div class="ca-content-text">
+                    <p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+                    <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+                    <p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ca-item ca-item-3">
+              <div class="ca-item-main">
+                <div class="ca-icon"></div>
+                <img src="img_dista/v3.jpg" alt="">
+                <h4>
+                  <span>I feel that spiritual progress does demand at some stage that we should cease to kill our fellow creatures for the satisfaction of our bodily wants.</span>
+                </h4>
+                  <a href="#" class="ca-more">more...</a>
+              </div>
+              <div class="ca-content-wrapper">
+                <div class="ca-content">
+                  <h6>Find your wedding style</h6>
+                  <a href="#" class="ca-close">close</a>
+                  <div class="ca-content-text">
+                    <p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+                    <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+                    <p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ca-item ca-item-4">
+              <div class="ca-item-main">
+                <div class="ca-icon"></div>
+                <img src="img_dista/v4.jpg" alt="">
+                <h4>
+                  <span>A man is but the product of his thoughts what he thinks, he becomes.</span>
+                </h4>
+                  <a href="#" class="ca-more">more...</a>
+              </div>
+              <div class="ca-content-wrapper">
+                <div class="ca-content">
+                  <h6>Find your wedding style</h6>
+                  <a href="#" class="ca-close">close</a>
+                  <div class="ca-content-text">
+                    <p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+                    <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+                    <p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ca-item ca-item-5">
+              <div class="ca-item-main">
+                <div class="ca-icon"></div>
+                <img src="img_dista/v5.jpg" alt="">
+                <h4>
+                  <span>A weak man is just by accident. A strong but non-violent man is unjust by accident.</span>
+                </h4>
+                  <a href="#" class="ca-more">more...</a>
+              </div>
+              <div class="ca-content-wrapper">
+                <div class="ca-content">
+                  <h6>Find your wedding style</h6>
+                  <a href="#" class="ca-close">close</a>
+                  <div class="ca-content-text">
+                    <p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+                    <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+                    <p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ca-item ca-item-6">
+              <div class="ca-item-main">
+                <div class="ca-icon"></div>
+                <img src="img_dista/v6.jpg" alt="">
+                <h4>
+                  <span>An error does not become truth by reason of multiplied propagation, nor does truth become error because nobody sees it.</span>
+                </h4>
+                  <a href="#" class="ca-more">more...</a>
+              </div>
+              <div class="ca-content-wrapper">
+                <div class="ca-content">
+                  <h6>Find your wedding style</h6>
+                  <a href="#" class="ca-close">close</a>
+                  <div class="ca-content-text">
+                    <p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+                    <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+                    <p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ca-item ca-item-7">
+              <div class="ca-item-main">
+                <div class="ca-icon"></div>
+                <img src="img_dista/v1.jpg" alt="">
+                <h4>
+                  <span>A small body of determined spirits fired by an unquenchable faith in their mission can alter the course of history.</span>
+                </h4>
+                  <a href="#" class="ca-more">more...</a>
+              </div>
+              <div class="ca-content-wrapper">
+                <div class="ca-content">
+                  <h6>Find your wedding style</h6>
+                  <a href="#" class="ca-close">close</a>
+                  <div class="ca-content-text">
+                    <p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+                    <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+                    <p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ca-item ca-item-8">
+              <div class="ca-item-main">
+                <div class="ca-icon"></div>
+                <img src="img_dista/v2.jpg" alt="">
+                <h4>
+                  <span>A nation's culture resides in the hearts and in the soul of its people.</span>
+                </h4>
+                  <a href="#" class="ca-more">more...</a>
+              </div>
+              <div class="ca-content-wrapper">
+                <div class="ca-content">
+                  <h6>Find your wedding style</h6>
+                  <a href="#" class="ca-close">close</a>
+                  <div class="ca-content-text">
+                    <p>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p>
+                    <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;</p>
+                    <p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="side">
+        <table>
+          <tr>
+            <td>
+                <div class="sidenav">
+                  <h1>Create your own wedding style</h1>
+                    <button class="dropdown-tombol">Types of Categories
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-cont">
+                      <a href="#">All Categories</a>
+                      <a href="#">Barn & Farm Weddings</a>
+                      <a href="#">Hotel Weddings</a>
+                      <a href="#">Winery Weddings</a>
+                      <a href="#">Restaurant Weddings</a>
+                      <a href="#">Rooftop Weddings</a>
+                    </div>
+                    <hr>
+                    <button class="dropdown-tombol">Availability
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-cont">
+                          <input placeholder="Select date" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date">
+                      </div>
+                      <hr>
+                      <button class="dropdown-tombol">Settings
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-cont">
+                          <input type="checkbox"> <font color="#818181">Indoor</font><br>
+                          <input type="checkbox"><font color="#818181">Covered Outdoor </font><br>
+                          <input type="checkbox"> <font color="#818181">Uncovered Outdoor </font><br>
+                        </div>
+                        <hr>
+                  </div>
+                  
+            </td>
+
+            <td>
+                <div class="kanan">
+                  <img src="img_dista\oye.jpg" alt="">
+                    <h2>Fairy Tale Story</h2> <br>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis delectus illum amet doloremque voluptatem incidunt neque iusto. Asperiores, recusandae. In sunt corrupti impedit aliquid 
+                    labore commodi doloremque magnam optio voluptatem?</p>
+                  </div>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="pagination">
+                    <a href="#">&laquo;</a>
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">&raquo;</a>
+                  </div>
+            </td>
+          </tr>
+        </table>           
+      </div>
+    </section>
+
+    <section>
+      <div class="ikon">
+        <table>
+          <tr>
+            <td>
+              <img src="img_dista\plan.jpg" alt="">
+              <h3>Month Wedding planner checklist Calendar</h3>
+            </td>
+            <td>
+              <img src="img_dista\tips.jpg" alt="">
+              <h3>Essential wedding planning Tips & Tricks</h3>
+            </td>
+            <td>
+              <img src="img_dista\cake.jpg" alt="">
+              <h3>Insider secret from wedding planners & pros</h3>
+            </td>s
+            <td>
+              <img src="img_dista\venue.jpg" alt="">
+              <h3>Most-loved wedding themes to inspire you </h3>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <section>
+        <div class="closing">
+          <center>
+          <table>
+            <tr>
+              <td>
+                <h2>Plan on the go with the BrideStory app</h2> <br>
+                <p>From venue tours to cake tastings, <br> get the WeddingWire App to plan anytime, anywhere.</p> <br><br>
+                <a href="https://store.google.com/account"><img src="img_dista\icon\goplay.png" alt=""></a>  
+                <a href="https://www.apple.com"><img src="img_dista\icon\appstore.png" alt=""></a> 
+              </td>
+              <td>
+                  <img src="img_dista\icon\coba.png" alt="">
+              </td>
+            </tr>
+          </table>
+        </center>
+        </div>
+      </section>
+
+      <div class="clear"></div>
+      <div class="ngisor">
+          <div class="footer-grids">
+            <div class="footer siji">
+              <h3>More About Company</h3>
+              <p>Wedding Organizer is a special service that helps prospective brides & families in the planning and supervision of the implementation of a series of wedding parties in accordance with a predetermined schedule. WO also manages wedding events from the start of the marriage contract, traditional ceremonies, aids, catering, bridal makeup, documentation and others. In 1989 Ms. Yayah Rumdayah formed a Wedding Organizer which was named the WO bridestory.</p>
+              <p class="catetan">- Rizqi Muahmmad Hakim, CEO</p>
+              <div class="clear"></div>
+            </div>
+            <div class="footer loro">
+              <h3>Keep Connected</h3>
+              <ul>
+                <li><a class="fb" href="#"><i></i>Like us on Facebook</a></li>
+                <li><a class="fb1" href="#"><i></i>Follow us on Twitter</a></li>
+                <li><a class="fb2" href="#"><i></i>Add us on Google Plus</a></li>
+                <li><a class="fb3" href="#"><i></i>Follow us on Dribbble</a></li>
+                <li><a class="fb4" href="#"><i></i>Follow us on Pinterest</a></li>
+              </ul>
+            </div>
+            <div class="footer telu">
+              <h3>Contact Information</h3>
+              <ul>
+                <li>Bride Stoty <span>Yogyakarta</span>jl. janti no 543241</li>
+                <li>1234567890  </li>
+                <li><a href="mailto:info@example.com">mail@bridestory.com</a> </li>
+              </ul>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="ngisordewe">
+            <div class="dewe-mid">
+                <p class="footer-gd">© 2019 BrideStory. All Rights Reserved | Design by <a href="https://bridestory.com/" target="_blank">BrideStory</a></p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div> 
+
+        <script>
+                window.onscroll = function() {scrollFunction()};
+
+                function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+                } else {
+                document.getElementById("myBtn").style.display = "none";
+                }
+                }
+
+              function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+              }
+        </script>
+        
+        <script>
+            /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+            var dropdown = document.getElementsByClassName("dropdown-tombol");
+            var i;
+            
+            for (i = 0; i < dropdown.length; i++) {
+              dropdown[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var dropdownContent = this.nextElementSibling;
+              if (dropdownContent.style.display === "block") {
+              dropdownContent.style.display = "none";
+              } else {
+              dropdownContent.style.display = "block";
+              }
+              });
+            }
+            </script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js_dista/jquery.easing.1.3.js"></script>
+        <!-- the jScrollPane script -->
+        <script type="text/javascript" src="js_dista/jquery.mousewheel.js"></script>
+        <script type="text/javascript" src="js_dista/jquery.contentcarousel.js"></script>
+        <script type="text/javascript">
+          $('#ca-container').contentcarousel();
+        </script>
+</body>
+</html>

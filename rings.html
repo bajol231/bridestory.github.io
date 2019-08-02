@@ -1,0 +1,306 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>BrideStory | Rings</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/rings.css">
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("myBtn").style.display = "block";
+    } else {
+      document.getElementById("myBtn").style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script> 
+<!-- navbar -->
+	<div class="main">
+    <ul class="nav">
+        <li class="img"><img src="imgrizki2/bs.png"></li>
+        <li class="login" style="float: right"><a href="#login_form" id="login_popup" style="float: right">Login</a></li>
+        <li class="sign" style="float: right"><a href="#signup_form" id="signup_popup">Sign Up</a></li>
+         <li class="about" style="float: right "><a href="about.html" style="float: right">ABOUT US</a></li>
+		        <li class="dropdown-services" style="float:right;">
+		            <a href="javascript:void(0)" class="dropbtn">SERVICES</a>
+		            <div class="dropdown-content" >
+		              <a href="makeup.html">Make Up Artist</a>
+		              <a href="dress.html">Dress</a>
+		              <a href="rings.html">Ring & Accesories</a>
+		              <a href="gallery.html">Gallery</a>
+		              <a href="invitation.html">Invitations</a>
+		              <a href="honey moon.html">Honeymoon</a>
+		            </div>
+		          </li>
+		          <li class="testimoni" style="float: right"><a href="testimoni.html">TESTIMONI</a></li>
+		          <li class="dropdown-inspiration" style="float:right;">
+		            <a href="javascript:void(0)" class="dropbtn">INSPIRATIONS</a>
+		            <div class="dropdown-content">
+		              <a href="event.html">Event</a>
+		              <a href="team.html">Team</a>
+		            </div>
+		          </li>
+		          <li class="home" style="float: right"><a href="homepage.html">HOME</a></li>
+		      </ul>
+  </div>
+<!-- popup form login #1 -->
+<a href="#x" class="overlay" id="login_form"></a>
+<div class="popup">
+    <div class="window">
+        <div>
+            <form action="/action_page.php">
+              <img src="imgrizki2/bs.png"><br>
+              <h2>Welcome Dear!</h2>
+              <p>Please enter your email and password here</p> <br>
+              <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+              <input type="password" id="password" name="password" placeholder="password" required><br><br>
+              <a href="home.html">
+              <input type="button" value="Login">
+              </a>
+              <a class="close" href="#close"></a>
+              <br><br>
+              <u>Forgot password?</u><br><br>
+              Are you vendor?<br>
+              <u>Log into your account</u><br><br><br>
+              Not a member yet? <u>Join now!</u>
+            </form>
+          </div>
+    </div>
+</div>
+
+<!-- popup form Sign Up #2 -->
+<a href="#x" class="overlay" id="signup_form"></a>
+<div class="popup">
+    <div class="window">
+        <div>
+            <form>
+              <img src="imgrizki2/bs.png"><br>
+              <h3>Your Personal Wedding Plan Start Now</h3>
+              <p>Advice, tools and the best vendors to have a wedding that's uniquely you (cue the confelti!)</p><br>
+              <input type="text" id="text" name="text" placeholder="Your name" required><br><br>
+              <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+              <input type="password" id="password" name="password" placeholder="password" required><br><br>
+              <a href="home.html">
+              <input type="button" value="Sign Up">
+              </a>
+              <a class="close" href="#close"></a>
+              <br>
+              <p>By Sign up you agree to our Terms and Privacy Policy</p>
+            </form>
+          </div>
+    </div>
+</div>
+      <!-- end of navbar -->
+<div class="bg-img">
+  <form action="/action_page.php" class="container">
+    <br>
+    <h1>RINGS PROPOSAL</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud.</p>
+    <br>
+    <button type="submit" class="btn">See Collection</button>
+  </form>
+</div>
+
+<div class="con1">
+	<h1>explore engangement ring styles</h1>
+	</div>
+
+<div class="con2">
+		<div class="card">
+		  <img src="imgrizki2/soliter.jpg" style="width:100%">
+		  <div class="teks">
+		    <h4><b>SOLITAIRE</b></h4> 
+		    <a href="#">see all collection </a>
+		  </div>
+		</div>
+		<div class="card">
+		  <img src="imgrizki2/halo.jpg" style="width:100%">
+		  <div class="teks">
+		    <h4><b>HALO</b></h4> 
+		    <a href="#">see all collection </a> 
+		  </div>
+		</div>
+		<div class="card">
+		  <img src="imgrizki2/soliter.jpg" style="width:100%">
+		  <div class="teks">
+		    <h4><b>SOLITAIRE</b></h4> 
+		    <a href="#">see all collection </a> 
+		  </div>
+		</div>
+		<div class="card">
+		  <img src="imgrizki2/tigabatu.jpg" style="width:100%">
+		  <div class="teks">
+		    <h4><b>THREE STONE</b></h4> 
+		    <a href="#">see all collection </a> 
+		  </div>
+		</div>
+		<div class="card">
+		  <img src="imgrizki2/soliter.jpg" style="width:100%">
+		  <div class="teks">
+		    <h4><b>SOLITAIRE</b></h4> 
+		    <a href="#">see all collection </a>
+		  </div>
+		</div>
+		<div class="card">
+		  <img src="imgrizki2/vintage.jpg" alt="Avatar" style="width:100%">
+		  <div class="teks">
+		    <h4><b>VINTAGE</b></h4> 
+		    <a href="#">see all collection </a> 
+		  </div>
+		</div>
+	</div>
+</div>
+<div class="clear">
+	</div>
+
+	<div class="con1">
+		<h1>shop by stone cut</h1>
+		</div>
+<div class="cut1">
+	<img src="imgrizki2/oval.jpg">
+	<h1>Oval</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<br>
+	<a href="#"><b>shop now</b></a>
+</div>
+<div class="clear"></div>
+<div class="cut1">
+	<img src="imgrizki2/emerald.jpg">
+	<h1>Emerald</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<br>
+	<a href="#"><b>shop now</b></a>
+</div>
+<div class="clear"></div>
+<div class="cut1">
+	<img src="imgrizki2/pearjpg.jpg">
+	<h1>Pear</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<br>
+	<a href="#"><b>shop now</b></a>
+</div>
+<div class="clear"></div>
+<div class="cut1">
+	<img src="imgrizki2/cushion.jpg">
+	<h1>Cushion</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<br>
+	<a href="#"><b>shop now</b></a>
+</div>
+<div class="clear"></div>
+<div class="cut1">
+	<img src="imgrizki2/princess.jpg">
+	<h1>Princess</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<br>
+	<a href="#"><b>shop now</b></a>
+</div>
+
+<!-- FOOTER -->
+	<div class="clear"></div>
+	
+<div class="ngisor">
+			<div class="footer-grids">
+				<div class="footer siji">
+					<h3>More About Company</h3>
+					<p>Wedding Organizer is a special service that helps prospective brides & families in the planning and supervision of the implementation of a series of wedding parties in accordance with a predetermined schedule. WO also manages wedding events from the start of the marriage contract, traditional ceremonies, aids, catering, bridal makeup, documentation and others. In 1989 Ms. Yayah Rumdayah formed a Wedding Organizer which was named the WO bridestory.</p>
+					<div class="clear"></div>
+				</div>
+				<div class="footer loro">
+					<h3>Keep Connected</h3>
+					<ul>
+						<li><a class="fb" href="#"><i></i>Like us on Facebook</a></li>
+						<li><a class="fb1" href="#"><i></i>Follow us on Twitter</a></li>
+						<li><a class="fb2" href="#"><i></i> Add us on Google Plus</a></li>
+						<li><a class="fb3" href="#"><i></i>Follow us on Dribbble</a></li>
+						<li><a class="fb4" href="#"><i></i>Follow us on Pinterest</a></li>
+					</ul>
+				</div>
+				<div class="footer telu">
+					<h3>Contact Information</h3>
+					<ul>
+						<li>Bride Story <span>Yogyakarta</span>jl. janti no 543241</li>
+						<li>1234567890  </li>
+						<li><a href="mailto:info@example.com">mail@bridestory.com</a> </li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="ngisordewe">
+				<div class="dewe-mid">
+						<p class="footer-gd">© 2019 BrideStory. All Rights Reserved | Design by <a href="https://bridestory.com/" target="_blank">BrideStory</a></p>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>	
+
+</body>
+</html>

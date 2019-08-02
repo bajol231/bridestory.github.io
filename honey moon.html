@@ -1,0 +1,260 @@
+<html lang="en">
+<head>
+  <title>BrideStory | Honey moon</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/honey moon.css">
+</head>
+<body>
+
+<ul class="nav">
+        <li class="img"><img src="imgahmad\bs.png"></li>
+        <li class="login" style="float: right"><a href="#login_form" id="login_popup" style="float: right">Login</a></li>
+        <li class="sign" style="float: right"><a href="#signup_form" id="signup_popup">Sign Up</a></li>
+        <li class="about" style="float: right "><a href="about.html" style="float: right">ABOUT US</a></li>
+            <li class="dropdown-services" style="float:right;">
+                <a href="javascript:void(0)" class="dropbtn">SERVICES</a>
+                <div class="dropdown-content" >
+                  <a href="makeup.html">Make Up Artist</a>
+                  <a href="dress.html">Dress</a>
+                  <a href="rings.html">Ring & Accesories</a>
+                  <a href="gallery.html">Gallery</a>
+                  <a href="invitation.html">Invitations</a>
+                  <a href="honey moon.html">Honeymoon</a>
+                </div>
+              </li>
+              <li class="testimoni" style="float: right"><a href="testimoni.html">TESTIMONI</a></li>
+              <li class="dropdown-inspiration" style="float:right;">
+                <a href="javascript:void(0)" class="dropbtn">INSPIRATIONS</a>
+                <div class="dropdown-content">
+                  <a href="event.html">Event</a>
+                  <a href="team.html">Team</a>
+                </div>
+              </li>
+              <li class="home" style="float: right"><a href="homepage.html">HOME</a></li>
+          </ul>
+
+
+<!-- popup form login #1 -->
+<a href="#x" class="overlay" id="login_form"></a>
+<div class="popup">
+    <div class="window">
+        <div>
+            <form action="/action_page.php">
+              <img src="imgahmad\bs.png"><br>
+              <h2>Welcome Dear!</h2>
+              <p>Please enter your email and password here</p> <br>
+              <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+              <input type="password" id="password" name="password" placeholder="password" required><br><br>
+              <a href="home.html">
+              <input type="button" value="Login">
+              </a>
+              <a class="close" href="#close"></a>
+              <br><br>
+              <u>Forgot password?</u><br><br>
+              Are you vendor?<br>
+              <u>Log into your account</u><br><br><br>
+              Not a member yet? <u>Join now!</u>
+            </form>
+          </div>
+    </div>
+</div>
+
+<!-- popup form Sign Up #2 -->
+<a href="#x" class="overlay" id="signup_form"></a>
+<div class="popup">
+    <div class="window">
+        <div>
+            <form>
+              <img src="imgahmad\bs.png"><br>
+              <h3>Your Personal Wedding Plan Start Now</h3>
+              <p>Advice, tools and the best vendors to have a wedding that's uniquely you (cue the confelti!)</p><br>
+              <input type="text" id="text" name="text" placeholder="Your name" required><br><br>
+              <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+              <input type="password" id="password" name="password" placeholder="password" required><br><br>
+              <a href="home.html">
+              <input type="button" value="Sign Up">
+              </a>
+              <a class="close" href="#close"></a>
+              <br>
+              <p>By Sign up you agree to our Terms and Privacy Policy</p>
+            </form>
+          </div>
+    </div>
+</div>
+</div>
+
+<!-- Tombol up -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("myBtn").style.display = "block";
+    } else {
+      document.getElementById("myBtn").style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script> 
+
+
+
+<!-- Portfolio Gallery Grid -->
+
+<div>
+  <img class="cover" src="imgahmad\bali5.jpg">
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a class="link" href="https://www.google.com/search?q=google&rlz=1C1CHBD_idID841ID842&oq=google&aqs=chrome..69i57j69i60l2j69i59j69i60j0.3586j0j7&sourceid=chrome&ie=UTF-8">
+	  <img src="imgahmad\hotel10.jpg" style="width:100%">
+      <h3 style="margin-bottom: 5px;">Quest Hotel<br>Kuta Central Park, Bali, Indonesia</h3>
+      <p>starting (/package):</p>
+      <span class="harga">IDR 8.195.000</span></a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="content">
+    <a class="link" href="https://www.google.com/search?q=google&rlz=1C1CHBD_idID841ID842&oq=google&aqs=chrome..69i57j69i60l2j69i59j69i60j0.3586j0j7&sourceid=chrome&ie=UTF-8">
+      <img src="imgahmad\hotel2.jpg" style="width:100%">
+      <h3 style="margin-bottom: 27px;">Natya Hotel Kuta<br>Bali, Indonesia</h3>
+      <p>starting (/package):</p>
+      <span class="harga">IDR 8.470.000</span></a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="content">
+    <a class="link" href="https://www.google.com/search?q=google&rlz=1C1CHBD_idID841ID842&oq=google&aqs=chrome..69i57j69i60l2j69i59j69i60j0.3586j0j7&sourceid=chrome&ie=UTF-8">
+      <img src="imgahmad\hotel3.jpg" style="width:100%">
+      <h3 style="margin-bottom: 27px;">Te Quiero Bali Hotel<br>Bali, Indonesia</h3>
+      <p>starting (/package):</p>
+      <span class="harga">IDR 6.050.000</span></a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="content">
+    <a class="link" href="https://www.google.com/search?q=google&rlz=1C1CHBD_idID841ID842&oq=google&aqs=chrome..69i57j69i60l2j69i59j69i60j0.3586j0j7&sourceid=chrome&ie=UTF-8">
+      <img src="imgahmad\hotel4.jpg" style="width:100%">
+      <h3 style="margin-bottom: 5px;">The Rani Hotel & Spa</h3>
+      <p>starting (/package):</p>
+      <span class="harga">IDR 7.260.000</span></a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="content">
+    <a class="link" href="https://www.google.com/search?q=google&rlz=1C1CHBD_idID841ID842&oq=google&aqs=chrome..69i57j69i60l2j69i59j69i60j0.3586j0j7&sourceid=chrome&ie=UTF-8">
+      <img src="imgahmad\hotel5.jpg" style="width:100%">
+      <h3 style="margin-bottom: 5px;">The Breezes Bali Resort & Spa</h3>
+      <p>starting (/package):</p>
+      <span class="harga">IDR 4.455.000</span></a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="content">
+    <a class="link" href="https://www.google.com/search?q=google&rlz=1C1CHBD_idID841ID842&oq=google&aqs=chrome..69i57j69i60l2j69i59j69i60j0.3586j0j7&sourceid=chrome&ie=UTF-8">
+      <img src="imgahmad\hotel6.jpg" style="width:100%">
+      <h3 style="margin-bottom: 5px;">Pool Grand Hardys Hotel</h3>
+      <p>starting (/package):</p>
+      <span class="harga">IDR 5.658.000</span></a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="content">
+    <a class="link" href="https://www.google.com/search?q=google&rlz=1C1CHBD_idID841ID842&oq=google&aqs=chrome..69i57j69i60l2j69i59j69i60j0.3586j0j7&sourceid=chrome&ie=UTF-8">
+      <img src="imgahmad\hotel7.jpg" style="width:100%">
+      <h3 style="margin-bottom: 5px;">Villa Gula Bali</h3>
+      <p>starting (/package):</p>
+      <span class="harga">IDR 3.960.000</span></a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="content">
+    <a class="link" href="https://www.google.com/search?q=google&rlz=1C1CHBD_idID841ID842&oq=google&aqs=chrome..69i57j69i60l2j69i59j69i60j0.3586j0j7&sourceid=chrome&ie=UTF-8">
+      <img src="imgahmad\hotel8.jpg" style="width:100%">
+      <h3 style="margin-bottom: 5px;">Jayakarta Hotel Bali</h3>
+      <p>starting (/package):</p>
+      <span class="harga">IDR 7.225.000</span></a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="content">
+    <a class="link" href="https://www.google.com/search?q=google&rlz=1C1CHBD_idID841ID842&oq=google&aqs=chrome..69i57j69i60l2j69i59j69i60j0.3586j0j7&sourceid=chrome&ie=UTF-8">
+      <img src="imgahmad\hotel9.jpg" style="width:100%">
+      <h3 style="margin-bottom: 5px;">Aston Denpasar Hotel</h3>
+      <p>starting (/package):</p>
+      <span class="harga">IDR 9.998.000</span></a>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+
+
+
+
+
+
+<!--Footer-->
+<div class="ngisor" style="margin-top: 10px;">
+      <div class="footer-grids">
+        <div class="footer siji">
+          <h3>More About Company</h3>
+          <p style="text-align: justify;">Wedding Organizer is a special service that helps prospective brides & families in the planning and supervision of the implementation of a series of wedding parties in accordance with a predetermined schedule. WO also manages wedding events from the start of the marriage contract, traditional ceremonies, aids, catering, bridal makeup, documentation and others. In 1989 Ms. Yayah Rumdayah formed a Wedding Organizer which was named the WO bridestory.</p>
+          <div class="clear"></div>
+        </div>
+        <div class="footer loro">
+          <h3>Keep Connected</h3>
+          <ul style="background-color: #282828;">
+            <li><a class="fb" href="#"><i></i>Like us on Facebook</a></li>
+            <li><a class="fb1" href="#"><i></i>Follow us on Twitter</a></li>
+            <li><a class="fb2" href="#"><i></i>Add us on Google Plus</a></li>
+            <li><a class="fb3" href="#"><i></i>Follow us on Dribbble</a></li>
+            <li><a class="fb4" href="#"><i></i>Follow us on Pinterest</a></li>
+          </ul>
+        </div>
+        <div class="footer telu">
+          <h3>Contact Information</h3>
+          <ul style="background-color: #282828;">
+            <li>Bride Stoty <span>Yogyakarta</span>jl. janti no 543241</li>
+            <li>1234567890  </li>
+            <li><a href="mailto:info@example.com">mail@bridestory.com</a> </li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+
+      <div class="ngisordewe">
+        <div class="dewe-mid">
+            <p class="footer-gd">© 2019 BrideStory. All Rights Reserved | Design by <a href="https://bridestory.com/" target="_blank">BrideStory</a></p>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rings and Attire</title>
+	<link rel="stylesheet" type="text/css" href="rings.css">
+</head>
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("myBtn").style.display = "block";
+    } else {
+      document.getElementById("myBtn").style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script> 
+	<!-- navbar -->
+	<div class="main">
+    <ul class="nav">
+        <li class="img"><img src="img/bs.png"></li>
+        <li class="login" style="float: right"><a href="#login_form" id="login_popup" style="float: right">Login</a></li>
+        <li class="sign" style="float: right"><a href="#signup_form" id="signup_popup">Sign Up</a></li>
+        <li class="about" style="float: right "><a href="#about" style="float: right">ABOUT US</a></li>
+        <li class="dropdown-services" style="float:right;">
+            <a href="javascript:void(0)" class="dropbtn">SERVICES</a>
+            <div class="dropdown-content" >
+              <a href="#">Make Up Artist</a>
+              <a href="#">Dress</a>
+              <a href="#">Ring & Accesories</a>
+              <a href="#">Photograpy</a>
+              <a href="#">Invitations</a>
+              <a href="#">Catering</a>
+            </div>
+          </li>
+          <li class="testimoni" style="float: right"><a href="#testimoni">TESTIMONI</a></li>
+          <li class="dropdown-inspiration" style="float:right;">
+            <a href="javascript:void(0)" class="dropbtn">INSPIRATIONS</a>
+            <div class="dropdown-content">
+              <a href="#">Event</a>
+              <a href="#">Make Up</a>
+            </div>
+          </li>
+          <li class="home" style="float: right"><a href="#home">HOME</a></li>
+      </ul>
+  </div>
+<!-- popup form login #1 -->
+<a href="#x" class="overlay" id="login_form"></a>
+<div class="popup">
+    <div class="window">
+        <div>
+            <form action="/action_page.php">
+              <img src="img/bs.png"><br>
+              <h2>Welcome Dear!</h2>
+              <p>Please enter your email and password here</p> <br>
+              <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+              <input type="password" id="password" name="password" placeholder="password" required><br><br>
+              <a href="home.html">
+              <input type="button" value="Login">
+              </a>
+              <a class="close" href="#close"></a>
+              <br><br>
+              <u>Forgot password?</u><br><br>
+              Are you vendor?<br>
+              <u>Log into your account</u><br><br><br>
+              Not a member yet? <u>Join now!</u>
+            </form>
+          </div>
+    </div>
+</div>
+
+<!-- popup form Sign Up #2 -->
+<a href="#x" class="overlay" id="signup_form"></a>
+<div class="popup">
+    <div class="window">
+        <div>
+            <form>
+              <img src="img/bs.png"><br>
+              <h3>Your Personal Wedding Plan Start Now</h3>
+              <p>Advice, tools and the best vendors to have a wedding that's uniquely you (cue the confelti!)</p><br>
+              <input type="text" id="text" name="text" placeholder="Your name" required><br><br>
+              <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+              <input type="password" id="password" name="password" placeholder="password" required><br><br>
+              <a href="home.html">
+              <input type="button" value="Sign Up">
+              </a>
+              <a class="close" href="#close"></a>
+              <br>
+              <p>By Sign up you agree to our Terms and Privacy Policy</p>
+            </form>
+          </div>
+    </div>
+</div>
+      <!-- end of navbar -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("myBtn").style.display = "block";
+    } else {
+      document.getElementById("myBtn").style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script> 
+	<!-- navbar -->
+	<div class="main">
+    <ul class="nav">
+        <li class="img"><img src="img/bs.png"></li>
+        <li class="login" style="float: right"><a href="#login_form" id="login_popup" style="float: right">Login</a></li>
+        <li class="sign" style="float: right"><a href="#signup_form" id="signup_popup">Sign Up</a></li>
+        <li class="about" style="float: right "><a href="#about" style="float: right">ABOUT US</a></li>
+        <li class="dropdown-services" style="float:right;">
+            <a href="javascript:void(0)" class="dropbtn">SERVICES</a>
+            <div class="dropdown-content" >
+              <a href="#">Make Up Artist</a>
+              <a href="#">Dress</a>
+              <a href="#">Ring & Accesories</a>
+              <a href="#">Photograpy</a>
+              <a href="#">Invitations</a>
+              <a href="#">Catering</a>
+            </div>
+          </li>
+          <li class="testimoni" style="float: right"><a href="#testimoni">TESTIMONI</a></li>
+          <li class="dropdown-inspiration" style="float:right;">
+            <a href="javascript:void(0)" class="dropbtn">INSPIRATIONS</a>
+            <div class="dropdown-content">
+              <a href="#">Event</a>
+              <a href="#">Make Up</a>
+            </div>
+          </li>
+          <li class="home" style="float: right"><a href="#home">HOME</a></li>
+      </ul>
+  </div>
+<!-- popup form login #1 -->
+<a href="#x" class="overlay" id="login_form"></a>
+<div class="popup">
+    <div class="window">
+        <div>
+            <form action="/action_page.php">
+              <img src="img/bs.png"><br>
+              <h2>Welcome Dear!</h2>
+              <p>Please enter your email and password here</p> <br>
+              <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+              <input type="password" id="password" name="password" placeholder="password" required><br><br>
+              <a href="home.html">
+              <input type="button" value="Login">
+              </a>
+              <a class="close" href="#close"></a>
+              <br><br>
+              <u>Forgot password?</u><br><br>
+              Are you vendor?<br>
+              <u>Log into your account</u><br><br><br>
+              Not a member yet? <u>Join now!</u>
+            </form>
+          </div>
+    </div>
+</div>
+
+<!-- popup form Sign Up #2 -->
+<a href="#x" class="overlay" id="signup_form"></a>
+<div class="popup">
+    <div class="window">
+        <div>
+            <form>
+              <img src="img/bs.png"><br>
+              <h3>Your Personal Wedding Plan Start Now</h3>
+              <p>Advice, tools and the best vendors to have a wedding that's uniquely you (cue the confelti!)</p><br>
+              <input type="text" id="text" name="text" placeholder="Your name" required><br><br>
+              <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+              <input type="password" id="password" name="password" placeholder="password" required><br><br>
+              <a href="home.html">
+              <input type="button" value="Sign Up">
+              </a>
+              <a class="close" href="#close"></a>
+              <br>
+              <p>By Sign up you agree to our Terms and Privacy Policy</p>
+            </form>
+          </div>
+    </div>
+</div>
+      <!-- end of navbar -->
+
+      <style>
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: p2.jpg;
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+</body>
+</html>

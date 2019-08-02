@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BrideStory | Dress</title>
+	<link rel="stylesheet" type="text/css" href="css/dress.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	  $("#corner1, #corner2").hover(function(){
+	    $(this).css("background-color", "#EC5578");
+	    }, function(){
+	    $(this).css("background-color", "pink");
+	  });
+	});
+	</script>
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+	<script src='jsrizki/jquery.zoom.js'></script>
+	<script>
+		$(document).ready(function(){
+			$('#ex1').zoom();
+			$('#ex2').zoom();
+			$('#ex3').zoom();
+			$('#ex4').zoom();
+			$('#ex5').zoom();
+			$('#ex6').zoom();
+			$('#ex7').zoom();
+			$('#ex8').zoom();
+			$('#ex9').zoom();
+			$('#ex10').zoom();
+			$('#ex11').zoom();
+			$('#ex12').zoom();
+			$('#ex13').zoom();
+			$('#ex14').zoom();
+			$('#ex15').zoom();
+			$('#ex16').zoom();
+			$('#ex17').zoom();
+			$('#ex18').zoom();
+			$('#ex19').zoom();
+			$('#ex20').zoom();
+			$('#ex21').zoom();
+			$('#ex22').zoom();
+			$('#ex23').zoom();
+			$('#ex24').zoom();
+			
+		});
+	</script>
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("myBtn").style.display = "block";
+    } else {
+      document.getElementById("myBtn").style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script> 
+	<!-- navbar -->
+	<div class="main">
+    <ul class="nav">
+        <li class="img"><img src="imgrizki/bs.png"></li>
+        <li class="login" style="float: right"><a href="#login_form" id="login_popup" style="float: right">Login</a></li>
+        <li class="sign" style="float: right"><a href="#signup_form" id="signup_popup">Sign Up</a></li>
+         <li class="about" style="float: right "><a href="about.html" style="float: right">ABOUT US</a></li>
+		        <li class="dropdown-services" style="float:right;">
+		            <a href="javascript:void(0)" class="dropbtn">SERVICES</a>
+		            <div class="dropdown-content" >
+		              <a href="makeup.html">Make Up Artist</a>
+		              <a href="dress.html">Dress</a>
+		              <a href="rings.html">Ring & Accesories</a>
+		              <a href="gallery.html">Gallery</a>
+		              <a href="invitation.html">Invitations</a>
+		              <a href="honey moon.html">Honeymoon</a>
+		            </div>
+		          </li>
+		          <li class="testimoni" style="float: right"><a href="testimoni.html">TESTIMONI</a></li>
+		          <li class="dropdown-inspiration" style="float:right;">
+		            <a href="javascript:void(0)" class="dropbtn">INSPIRATIONS</a>
+		            <div class="dropdown-content">
+		              <a href="event.html">Event</a>
+		              <a href="team.html">Team</a>
+		            </div>
+		          </li>
+		          <li class="home" style="float: right"><a href="homepage.html">HOME</a></li>
+		      </ul>
+  </div>
+<!-- popup form login #1 -->
+<a href="#x" class="overlay" id="login_form"></a>
+<div class="popup">
+    <div class="window">
+        <div>
+            <form action="/action_page.php">
+              <img src="imgrizki/bs.png"><br>
+              <h2>Welcome Dear!</h2>
+              <p>Please enter your email and password here</p> <br>
+              <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+              <input type="password" id="password" name="password" placeholder="password" required><br><br>
+              <a href="home.html">
+              <input type="button" value="Login">
+              </a>
+              <a class="close" href="#close"></a>
+              <br><br>
+              <u>Forgot password?</u><br><br>
+              Are you vendor?<br>
+              <u>Log into your account</u><br><br><br>
+              Not a member yet? <u>Join now!</u>
+            </form>
+          </div>
+    </div>
+</div>
+
+<!-- popup form Sign Up #2 -->
+<a href="#x" class="overlay" id="signup_form"></a>
+<div class="popup">
+    <div class="window">
+        <div>
+            <form>
+              <img src="imgrizki/bs.png"><br>
+              <h3>Your Personal Wedding Plan Start Now</h3>
+              <p>Advice, tools and the best vendors to have a wedding that's uniquely you (cue the confelti!)</p><br>
+              <input type="text" id="text" name="text" placeholder="Your name" required><br><br>
+              <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+              <input type="password" id="password" name="password" placeholder="password" required><br><br>
+              <a href="home.html">
+              <input type="button" value="Sign Up">
+              </a>
+              <a class="close" href="#close"></a>
+              <br>
+              <p>By Sign up you agree to our Terms and Privacy Policy</p>
+            </form>
+          </div>
+    </div>
+</div>
+      <!-- end of navbar -->
+	<!-- SLIDER -->
+	<div class="pages">
+	<div class="slideshow-container">
+
+	<div class="mySlides fade">
+	  <img src="imgrizki/sliders/a.jpg" style="width:100%">
+	</div>
+
+	<div class="mySlides fade">
+	  <img src="imgrizki/sliders/c.jpg" style="width:100%">
+	</div>
+
+	<div class="mySlides fade">
+	  <img src="imgrizki/sliders/b.jpg" style="width:100%">
+	</div>
+
+	</div>
+	<br>
+
+	<div style="text-align:center">
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	</div>
+
+	<script>
+		var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  for (i = 0; i < slides.length; i++) {
+	    slides[i].style.display = "none";  
+	  }
+	  slideIndex++;
+	  if (slideIndex > slides.length) {slideIndex = 1}    
+	  for (i = 0; i < dots.length; i++) {
+	    dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";  
+	  dots[slideIndex-1].className += " active";
+	  setTimeout(showSlides, 2000); // Change image every 2 seconds
+	}
+	</script>
+
+	<!-- END OF SLIDER -->
+	<!-- CONTENT OF DESIGNER -->
+	 <p id="corner1">D E S I G N E R S</p>
+	 <div class="textui">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+	 <div class="clear"></div>
+	 <div class="polaroid">
+	 	<img src="imgrizki/ava/3.jpg" alt="Norway" style="width:100%">
+	 	<div class="polaroid-content">
+	 		<p>Bae Joohyun</p>
+	 	</div>
+	 </div>
+	 <div class="polaroid">
+	 	<img src="imgrizki/ava/4.jpg" alt="Norway" style="width:100%">
+	 	<div class="polaroid-content">
+	 		<p>Park Sooyoung</p>
+	 	</div>
+	 </div>
+	 <div class="polaroid">
+	 	<img src="imgrizki/ava/5.jpg" alt="Norway" style="width:100%">
+	 	<div class="polaroid-content">
+	 		<p>Kang Seulgi</p>
+	 	</div>
+	 </div>
+	 <div class="polaroid">
+	 	<img src="imgrizki/ava/wen.jpg" alt="Norway" style="width:100%">
+	 	<div class="polaroid-content">
+	 		<p>Son Seungwan</p>
+	 	</div>
+	 </div>
+	
+	<!-- END OF CONTENT DESIGNER -->
+
+	<!--GALERI-->
+	<div class="clear"></div>
+	<p id="corner2">C A T A L O G U E</p>
+	<div class="clear"></div>
+	<div class="textu">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+	
+	<div class="galeri">
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex1'>
+	      <img src="imgrizki/dress/gown1.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS 
+	    	<br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex2'>
+	      <img src="imgrizki/dress/gown2.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex3'>
+	      <img src="imgrizki/dress/gown3.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex4'>
+	      <img src="imgrizki/dress/gown7.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex5'>
+	      <img src="imgrizki/dress/gown5.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex6'>
+	      <img src="imgrizki/dress/gown6.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex7'>
+	      <img src="imgrizki/dress/gown4.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex8'>
+	      <img src="imgrizki/dress/gown8.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex9'>
+	      <img src="imgrizki/dress/gown9.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex10'>
+	      <img src="imgrizki/dress/gown10.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex11'>
+	      <img src="imgrizki/dress/gown11.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex12'>
+	      <img src="imgrizki/dress/gown12.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex13'>
+	      <img src="imgrizki/dress/gown13.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex14'>
+	      <img src="imgrizki/dress/gown14.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex15'>
+	      <img src="imgrizki/dress/gown8.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex16'>
+	      <img src="imgrizki/dress/gown9.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex17'>
+	      <img src="imgrizki/dress/gown10.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex18'>
+	      <img src="imgrizki/dress/gown11.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex19'>
+	      <img src="imgrizki/dress/gown12.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex20'>
+	      <img src="imgrizki/dress/gown13.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex21'>
+	      <img src="imgrizki/dress/gown14.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex22'>
+	      <img src="imgrizki/dress/gown2.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex23'>
+	      <img src="imgrizki/dress/gown3.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	  	<span class='zoom' id='ex24'>
+	      <img src="imgrizki/dress/gown4.jpg" alt="Cinque Terre" width="400" height="600">
+	    </a></span>
+	    <div class="desc">Danielle Caprese Style #113140XS <br>A-LINE LACE WEDDING DRESS WITH ILLUSION LONG SLEEVES</div>
+	  </div>
+	</div>
+</div>
+<br>
+	<!-- END OF GALLERY -->
+</div>
+	<!-- FOOTER -->
+	<div class="clear"></div>
+	
+<div class="ngisor">
+			<div class="footer-grids">
+				<div class="footer siji">
+					<h3>More About Company</h3>
+					<p>Wedding Organizer is a special service that helps prospective brides & families in the planning and supervision of the implementation of a series of wedding parties in accordance with a predetermined schedule. WO also manages wedding events from the start of the marriage contract, traditional ceremonies, aids, catering, bridal makeup, documentation and others. In 1989 Ms. Yayah Rumdayah formed a Wedding Organizer which was named the WO bridestory.</p>
+					<div class="clear"></div>
+				</div>
+				<div class="footer loro">
+					<h3>Keep Connected</h3>
+					<ul>
+						<li><a class="fb" href="#"><i></i>Like us on Facebook</a></li>
+						<li><a class="fb1" href="#"><i></i>Follow us on Twitter</a></li>
+						<li><a class="fb2" href="#"><i></i>Add us on Google Plus</a></li>
+						<li><a class="fb3" href="#"><i></i>Follow us on Dribbble</a></li>
+						<li><a class="fb4" href="#"><i></i>Follow us on Pinterest</a></li>
+					</ul>
+				</div>
+				<div class="footer telu">
+					<h3>Contact Information</h3>
+					<ul>
+						<li>Bride Story <span>Yogyakarta</span>jl. janti no 543241</li>
+						<li>1234567890  </li>
+						<li><a href="mailto:info@example.com">mail@bridestory.com</a> </li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="ngisordewe">
+				<div class="dewe-mid">
+						<p class="footer-gd">© 2019 BrideStory. All Rights Reserved | Design by <a href="https://bridestory.com/" target="_blank">BrideStory</a></p>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>		
+</body>
+</html>

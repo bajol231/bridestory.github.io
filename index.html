@@ -1,0 +1,623 @@
+	<!DOCTYPE HTML>
+<!--
+	Industrious by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>BrideStory | Homepage</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="css/homepage.css" />
+	</head>
+	<body class="is-preload">
+
+
+		<!-- Scripts -->
+			<script src="js_mut/jquery.min.js"></script>
+			<script src="js_mut/browser.min.js"></script>
+			<script src="js_mut/breakpoints.min.js"></script>
+			<script src="js_mut/util.js"></script>
+			<script src="js_mut/main1.js"></script>
+		<!-- Scripts thumbnails-->
+			<script src="js_mut/jquery.scrolly.min.js"></script>
+			<script src="js_mut/jquery.poptrox.min.js"></script>
+			<script src="js_mut/skel.min.js"></script>
+			<script src="js_mut/main.js"></script>
+
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    		<script>
+			// When the user scrolls down 20px from the top of the document, show the button
+	  		window.onscroll = function() {scrollFunction()};
+
+	    		function scrollFunction() {
+	    		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	      		document.getElementById("myBtn").style.display = "block";
+	    		} else {
+	      		document.getElementById("myBtn").style.display = "none";
+	    		}
+	    		}
+
+	    	// When the user clicks on the button, scroll to the top of the document
+	    	function topFunction() {
+	   		document.body.scrollTop = 0;
+     		document.documentElement.scrollTop = 0;
+	   		}
+	    	</script> 
+
+
+		<!--Navbar-->
+		<div class="atas">
+		  <div class="main">
+		    <ul class="nav">
+		        <li class="img"><img src="img\bs.png"></li>
+		        <li class="login" style="float: right"><a href="#login_form" id="login_popup" style="float: right">Login</a></li>
+		        <li class="sign" style="float: right"><a href="#signup_form" id="signup_popup">Sign Up</a></li>
+		        <li class="about" style="float: right "><a href="about.html" style="float: right">ABOUT US</a></li>
+		        <li class="dropdown-services" style="float:right;">
+		            <a href="javascript:void(0)" class="dropbtn">SERVICES</a>
+		            <div class="dropdown-content" >
+		              <a href="makeup.html">Make Up Artist</a>
+		              <a href="dress.html">Dress</a>
+		              <a href="rings.html">Ring & Accesories</a>
+		              <a href="gallery.html">Gallery</a>
+		              <a href="invitation.html">Invitations</a>
+		              <a href="honey moon.html">Honeymoon</a>
+		            </div>
+		          </li>
+		          <li class="testimoni" style="float: right"><a href="testimoni.html">TESTIMONI</a></li>
+		          <li class="dropdown-inspiration" style="float:right;">
+		            <a href="javascript:void(0)" class="dropbtn">INSPIRATIONS</a>
+		            <div class="dropdown-content">
+		              <a href="event.html">Event</a>
+		              <a href="team.html">Team</a>
+		            </div>
+		          </li>
+		          <li class="home" style="float: right"><a href="homepage.html">HOME</a></li>
+		      </ul>
+
+		  </div>
+
+		<!-- popup form login #1 -->
+		<a href="#x" class="overlay" id="login_form"></a>
+		<div class="popup">
+		    <div class="window">
+		        <div>
+		            <form action="/action_page.php">
+		              <img src="img\bs.png"><br>
+		              <h2>Welcome Dear!</h2>
+		              <p>Please enter your email and password here</p> <br>
+		              <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+		              <input type="password" id="password" name="password" placeholder="password" required><br><br>
+		              <a href="home.html">
+		              <input type="button" value="Login">
+		              </a>
+		              <a class="close" href="#close"></a>
+		              <br><br>
+		              <u>Forgot password?</u><br>
+		              Are you vendor?<br>
+		              <u>Log into your account</u><br><br>
+		              Not a member yet? <u>Join now!</u>
+		            </form>
+		          </div>
+		    </div>
+		</div>
+
+		<!-- popup form Sign Up #2 -->
+		<a href="#x" class="overlay" id="signup_form"></a>
+		<div class="popup">
+		    <div class="window">
+		        <div>
+		            <form>
+		              <img src="img\bs.png"><br>
+		              <h3>Your Personal Wedding Plan Start Now</h3>
+		              <p>Advice, tools and the best vendors to have a wedding that's uniquely you (cue the confelti!)</p><br>
+		              <input type="text" id="text" name="text" placeholder="Your name" required><br><br>
+		              <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+		              <input type="password" id="password" name="password" placeholder="password" required><br><br>
+		              <a href="home.html"><input type="button" value="Sign Up"></a>
+		              <a class="close" href="#close"></a>
+		              <br>
+		              <p>By Sign up you agree to our Terms and Privacy Policy</p>
+		            </form>
+		          </div>
+		    </div>
+		</div>
+		</div>
+		    
+</div>
+  
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h1>BrideStory</h1>
+					<p>Making Dream Wedding Possible</p>
+					</div>
+				</div>
+				<video autoplay loop muted playsinline src="img/bride.mp4"></video>
+			</section>
+			
+		<!-- Highlights -->
+			<section class="wrapper">
+				<div class="inner">
+					<header class="special">
+						<h2>What we Offer?</h2>
+						<p>You can make different inspiration boards for different things, like one for stationery items (invitations, ceremony programs, place cards) and another for bridal fashion (gowns, veils, accessories), or bundle everything together.</p>	<div style="text-align:center">						
+						<a href="All-in-one.html" class="select" >All in One Package</a>
+					</div>
+					</header>
+				</div>
+			</section>
+
+
+			<div class="clearfix"></div>
+
+		<div class="numbertext">
+			<h2>BrideStory Gallery<h2>
+		</div>
+		<br>
+		<hr>
+
+
+			<!---gallery-->
+
+			<div class="slideshow-container">
+
+		<div class="mySlides fade">
+			<div class="container">
+			
+				<div class="gallerybox">
+			      <div class="responsive">
+			      <div class="gallery">
+			      <a target="_blank" href="img\dec.jpg">
+			      <img src="img\dec.jpg" alt="Cinque Terre" width="600" height="400">
+			      </a>
+			      <div class="desc">Decoration</div>
+			      </div>
+			      </div>
+
+
+			      <div class="responsive">
+			        <div class="gallery">
+			          <a target="_blank" href="img\honey.jpg">
+			            <img src="img\honey.jpg" alt="Forest" width="600" height="400">
+			          </a>
+			          <div class="desc">Services</div>
+			        </div>
+			      </div>	
+
+			      <div class="responsive">
+			        <div class="gallery">
+			          <a target="_blank" href="img\makeup.jpg">
+			            <img src="img\dress1.jpg" alt="Northern Lights" width="600" height="400">
+			          </a>
+			          <div class="desc">Makeup</div>
+			        </div>
+			      </div>
+
+			      <div class="responsive">
+			        <div class="gallery">
+			          <a target="_blank" href="img\invitation.jpg">
+			            <img src="img\invitation.jpg" alt="Mountains" width="600" height="400">
+			          </a>
+			          <div class="desc">Invitation</div>
+			        </div>
+			      </div>
+
+
+			    </div>
+			    </div>
+		</div>
+
+
+
+		<div class="mySlides fade">
+		  <div class="container">
+		  <div class="gallerybox">	
+
+			      <div class="responsive">
+			      <div class="gallery">
+			      <a target="_blank" href="img\prewjpg">
+			      <img src="img\ring2.jpeg" alt="Cinque Terre" width="600" height="400">
+			      </a>
+			      <div class="desc">Photography</div>
+			      </div>
+			      </div>
+
+
+			      <div class="responsive">
+			        <div class="gallery">
+			          <a target="_blank" href="img\prew1.jpg">
+			            <img src="img\prew1.jpg" alt="Forest" width="600" height="400">
+			          </a>
+			          <div class="desc">Photograpy</div>
+			        </div>
+			      </div>	
+
+			      <div class="responsive">
+			        <div class="gallery">
+			          <a target="_blank" href="img\15.jpg">
+			            <img src="img\15.jpg" alt="Northern Lights" width="600" height="400">
+			          </a>
+			          <div class="desc">Testimoni</div>
+			        </div>
+			      </div>
+
+			      <div class="responsive">
+			        <div class="gallery">
+			          <a target="_blank" href="img\16.jpg">
+			            <img src="img\16.jpg" alt="Mountains" width="600" height="400">
+			          </a>
+			          <div class="desc">Honeymoon</div>
+			        </div>
+			      </div>
+			    </div>
+		  </div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="container">
+		  <div class="gallerybox">
+
+			      <div class="responsive">
+			      <div class="gallery">
+			      <a target="_blank" href="img\13.jpg">
+			      <img src="img\13.jpg" alt="Cinque Terre" width="600" height="400">
+			      </a>
+			      <div class="desc">Decoration</div>
+			      </div>
+			      </div>
+
+
+			      <div class="responsive">
+			        <div class="gallery">
+			          <a target="_blank" href="img\14.jpg">
+			            <img src="img\14.jpg" alt="Forest" width="600" height="400">
+			          </a>
+			          <div class="desc">Services</div>
+			        </div>
+			      </div>	
+
+			      <div class="responsive">
+			        <div class="gallery">
+			          <a target="_blank" href="img\15.jpg">
+			            <img src="img\15.jpg" alt="Northern Lights" width="600" height="400">
+			          </a>
+			          <div class="desc">Testimoni</div>
+			        </div>
+			      </div>
+
+			      <div class="responsive">
+			        <div class="gallery">
+			          <a target="_blank" href="img\16.jpg">
+			            <img src="img\16.jpg" alt="Mountains" width="600" height="400">
+			          </a>
+			          <div class="desc">Honeymoon</div>
+			        </div>
+			      </div>
+			    </div>
+		  </div>
+		</div>
+
+
+		<div class="mySlides fade">
+		  <div class="container">
+		  <div class="gallerybox">	
+
+			      <div class="responsive">
+			      	<div class="gallery">
+			      	 <a target="_blank" href="img\prewjpg">
+			      		<img src="img\ring2.jpeg" alt="Cinque Terre" width="600" height="400">
+			      		</a>
+			      	  <div class="desc">Photography</div>
+			      	</div>
+			      </div>
+
+
+			      <div class="responsive">
+			        <div class="gallery">
+			          <a target="_blank" href="img\prew1.jpg">
+			            <img src="img\prew1.jpg" alt="Forest" width="600" height="400">
+			          </a>
+			          <div class="desc">Photograpy</div>
+			        </div>
+			      </div>	
+
+			      <div class="responsive">
+			        <div class="gallery">
+			          <a target="_blank" href="img\15.jpg">
+			            <img src="img\15.jpg" alt="Northern Lights" width="600" height="400">
+			          </a>
+			          <div class="desc">Testimoni</div>
+			        </div>
+			      </div>
+
+			      <div class="responsive">
+			        <div class="gallery">
+			          <a target="_blank" href="img\16.jpg">
+			            <img src="img\16.jpg" alt="Mountains" width="600" height="400">
+			          </a>
+			          <div class="desc">Honeymoon</div>
+			        </div>
+			      </div>
+		 		
+		 		</div>
+			</div>
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		</div>
+		<br>
+
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		   <span class="dot" onclick="currentSlide(4)"></span> 
+		  
+		<br><br>
+		<a href="gallery.html" class="select">View All</a>
+		   	
+		</div>
+
+			
+					<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+		      slides[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+		      dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		}
+		</script>
+		
+		<div class="numbertext">
+			<h2>Inspiration Board<h2>
+		</div>
+		<br>
+		<hr>
+
+		<!-- Wrapper -->
+
+			<div id="wrapper">
+
+						<!-- Thumbnails -->
+							<section class="thumbnails">
+								<div class="grid thumbnails img">
+									<a href="img/dress1.jpg">
+										<img src="img/dress1.jpg" alt="" />
+										<h4>Dicta Bridal & Makeup</h4>
+										<p>Wedding Dress</p>
+									</a>
+									<a href="img/50.jpg">
+										<img src="img/50.jpg" alt="" />
+										<h4>Spillajewelry</h4>
+										<p>Ring Couple</p>
+									</a>
+								</div>
+								<div class="grid thumbnails img">
+									<a href="img/prew.jpg">
+										<img src="img/prew.jpg" alt="" />
+										<h4>Lentera Photography</h4>
+										<p>Wedding Photographer</p>
+									</a>
+									<a href="img/d1.jpg">
+										<img src="img/d1.jpg" alt="" />
+										<h4>Ligth Decoration</h4>
+										<p>Decoration</p>
+									</a>
+									<a href="img/dec.jpg">
+										<img src="img/dec.jpg" alt="" />
+										<h4>Lavender Decoration</h4>
+										<p>Decoration</p>
+									</a>
+								</div>
+								<div class="thumbnails grid img">
+									<a href="img/ring3.jpg">
+										<img src="img/ring3.jpg" alt="" />
+										<h4>Swanjewelry</h4>
+										<p>Ring Design</p>
+									</a>
+									<a href="img/invitation.jpg">
+										<img src="img/invitation.jpg" alt="" />
+										<h4>The Fine Press</h4>
+										<p>Invitation</p>
+									</a>
+								</div>
+							</section>
+
+							<br><br>
+					</div>
+
+		<div style="text-align:center">						
+		<a href="event.html" class="select" >View All</a>
+		</div>
+
+		<div class="numbertext">
+			<h2>BrideStory Videos<h2>
+		</div>
+		<br>
+		<hr>
+			<!-- Main -->
+				<div id="maen">
+					<div class="inner">
+
+					<!-- Boxes -->
+						<div class="thumbnails">
+
+							<div class="box">
+								<a href="https://youtu.be/tIGNZEPniXQ" class="image fit"><img src="img/ring1.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>Couple Ring</h3>
+									<p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+									<a href="https://youtu.be/tIGNZEPniXQ" class="button style1 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="https://youtu.be/7GWSl1GQSSc" class="image fit"><img src="img/dec.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>Decoration</h3>
+									<p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+									<a href="https://youtu.be/7GWSl1GQSSc" class="button style2 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="https://youtu.be/teLhLLlhfzc" class="image fit"><img src="img/invitation.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>Invitation</h3>
+									<p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+									<a href="https://youtu.be/teLhLLlhfzc" class="button style3 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="https://youtu.be/LHXNqbstdq0" class="image fit"><img src="img/prew1.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>Photography </h3>
+									<p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+									<a href="https://youtu.be/LHXNqbstdq0" class="button style2 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="https://youtu.be/jYZsbizZ06U" class="image fit"><img src="img/honey.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>Honeymoon</h3>
+									<p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+									<a href="https://youtu.be/jYZsbizZ06U" class="button style3 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="https://youtu.be/jYZsbizZ06U" class="image fit"><img src="img/dress1.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>Dress</h3>
+									<p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+									<a href="https://youtu.be/jYZsbizZ06U" class="button style1 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+		<!-- Testimonials -->
+			<section class="wrapper">
+				<div class="inner">
+					<header class="special">
+						<h2>Testimonials</h2>
+					</header>
+					<div class="testimonials">
+						<section>
+							<div class="content">
+								<blockquote>
+									<p>You can make different inspiration boards for different things, like one for stationery items and another for bridal fashion or bundle everything together. </p>
+								</blockquote>
+								<div class="author">
+									<div class="image">
+										<img src="img/fotoku.png" alt="" />
+									</div>
+									<p class="credit">- <strong>Benedicta</strong> <span>Actress</span></p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<blockquote>
+									<p>You'll know pretty quickly what works for you. At first, just start collecting images that speak to you. Then, edit—and edit again.</p>
+								</blockquote>
+								<div class="author">
+									<div class="image">
+										<img src="img/pic03.jpg" alt="" />
+									</div>
+									<p class="credit">- <strong>Kepin H.Mukti</strong> <span>Musisi</span></p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<blockquote>
+									<p>Actually, there are two types of inspiration boards – true story-based inspiration boards, and what we like to call mood boards or color boards</p>
+								</blockquote>
+								<div class="author">
+									<div class="image">
+										<img src="img/pic02.jpg" alt="" />
+									</div>
+									<p class="credit">- <strong>Rizqi M.</strong> <span>Actress</span></p>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+
+		<div style="text-align:center">
+			<a href="testimoni.html" class="select" >View All</a>
+		</div>
+
+			</section>
+
+	<div class="ngisor">
+      <div class="footer-grids">
+        <div class="footer siji">
+          <h3>More About Company</h3>
+          <p> Wedding Organizer is a special service that helps prospective brides & families in the planning and supervision of the implementation of a series of wedding parties in accordance with a predetermined schedule. WO also manages wedding events from the start of the marriage contract, traditional ceremonies, aids, catering, bridal makeup, documentation and others. In 1989 Ms. Yayah Rumdayah formed a Wedding Organizer which was named the WO bridestory. </p>
+          <div class="clear"></div>
+        </div>
+
+      
+        <div class="footer loro">
+          <h3>Keep Connected</h3>
+          <ul>
+            <li><a class="fb" href="#"><i></i>Like us on Facebook</a></li>
+            <li><a class="fb1" href="#"><i></i>Follow us on Twitter</a></li>
+            <li><a class="fb2" href="#"><i></i>Add us on Google Plus</a></li>
+            <li><a class="fb3" href="#"><i></i>Follow us on Dribbble</a></li>
+            <li><a class="fb4" href="#"><i></i>Follow us on Pinterest</a></li>
+          </ul>
+        </div>
+        <div class="footer telu">
+          <h3>Contact Information</h3>
+          <ul>
+            <li>Bride Stoty <span>Yogyakarta</span>jl. janti no 543241</li>
+            <li>1234567890  </li>
+            <li><a href="mailto:info@example.com">mail@bridestory.com</a> </li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="ngisordewe">
+        <div class="dewe-mid">
+            <p class="footer-gd">© 2019 BrideStory. All Rights Reserved | Design by <a href="https://bridestory.com/" target="_blank">BrideStory</a></p>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>    				
+	</body>
+</html>

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BrideStory | Testimony</title>
+<link rel="stylesheet" type="text/css" href="css/testimoni.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("myBtn").style.display = "block";
+    } else {
+      document.getElementById("myBtn").style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script> 
+
+<div class="main">
+    <ul class="nav">
+        <li class="img"><img src="images\bs.png"></li>
+        <li class="login" style="float: right"><a href="#login_form" id="login_popup" style="float: right">Login</a></li>
+        <li class="sign" style="float: right"><a href="#signup_form" id="signup_popup">Sign Up</a></li>
+         <li class="about" style="float: right "><a href="about.html" style="float: right">ABOUT US</a></li>
+            <li class="dropdown-services" style="float:right;">
+                <a href="javascript:void(0)" class="dropbtn">SERVICES</a>
+                <div class="dropdown-content" >
+                  <a href="makeup.html">Make Up Artist</a>
+                  <a href="dress.html">Dress</a>
+                  <a href="rings.html">Ring & Accesories</a>
+                  <a href="gallery.html">Gallery</a>
+                  <a href="invitation.html">Invitations</a>
+                  <a href="honey moon.html">Honeymoon</a>
+                </div>
+              </li>
+              <li class="testimoni" style="float: right"><a href="testimoni.html">TESTIMONI</a></li>
+              <li class="dropdown-inspiration" style="float:right;">
+                <a href="javascript:void(0)" class="dropbtn">INSPIRATIONS</a>
+                <div class="dropdown-content">
+                  <a href="event.html">Event</a>
+                  <a href="team.html">Team</a>
+                </div>
+              </li>
+              <li class="home" style="float: right"><a href="homepage.html">HOME</a></li>
+          </ul>
+  </div>
+<!-- popup form login #1 -->
+<a href="#x" class="overlay" id="login_form"></a>
+<div class="popup">
+    <div class="window">
+        <div>
+            <form action="/action_page.php">
+              <img src="images\bs.png"><br>
+              <h2>Welcome Dear!</h2>
+              <p>Please enter your email and password here</p> <br>
+              <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+              <input type="password" id="password" name="password" placeholder="password" required><br><br>
+              <a href="home.html">
+              <input type="button" value="Login">
+              </a>
+              <a class="close" href="#close"></a>
+              <br><br>
+              <u>Forgot password?</u><br><br>
+              Are you vendor?<br>
+              <u>Log into your account</u><br><br><br>
+              Not a member yet? <u>Join now!</u>
+            </form>
+          </div>
+    </div>
+</div>
+
+<!-- popup form Sign Up #2 -->
+<a href="#x" class="overlay" id="signup_form"></a>
+<div class="popup">
+    <div class="window">
+        <div>
+            <form>
+              <img src="images\bs.png"><br>
+              <h3>Your Personal Wedding Plan Start Now</h3>
+              <p>Advice, tools and the best vendors to have a wedding that's uniquely you (cue the confelti!)</p><br>
+              <input type="text" id="text" name="text" placeholder="Your name" required><br><br>
+              <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+              <input type="password" id="password" name="password" placeholder="password" required><br><br>
+              <a href="home.html">
+              <input type="button" value="Sign Up">
+              </a>
+              <a class="close" href="#close"></a>
+              <br>
+              <p>By Sign up you agree to our Terms and Privacy Policy</p>
+            </form>
+          </div>
+    </div>
+</div>
+
+  
+<h1> Our Testimoni </h1>
+<div class="mySlides">
+	<div class="konten">
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gallery.html"><img src="images/1.jpg"></a>
+    <div class="desc">Painah bin malik</div>
+    <div class="desc">28 Oktober 2018</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gallery.html"><img src="images/2.jpg"></a>
+    <div class="desc">Paijah bin imam</div>
+    <div class="desc">02 Januari 2019</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gallery.html"><img src="images/3.jpg"></a>
+    <div class="desc">Painem bin suro</div>
+    <div class="desc">28 Oktober 2018</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gallery.html"><img src="images/4.jpg" class="images"></a>
+    <div class="desc">Painul bin sapar</div>
+    <div class="desc">28 Oktober 2018</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gallery.html"><img src="images/2.jpg"></a>
+    <div class="desc">paijil bin mulut</div>
+    <div class="desc">28 Oktober 2018</div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="mySlides">
+	<div class="konten">
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gallery.html"><img src="images/3.jpg"></a>
+    <div class="desc">Painah bin malik</div>
+    <div class="desc">28 Oktober 2018</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gallery.html"><img src="images/2.jpg"></a>
+    <div class="desc">Painah bin malik</div>
+    <div class="desc">28 Oktober 2018</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gallery.html"><img src="images/4.jpg"></a>
+    <div class="desc">Painah bin malik</div>
+    <div class="desc">28 Oktober 2018</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gallery.html"><img src="images/2.jpg"></a>
+    <div class="desc">Painah bin malik</div>
+    <div class="desc">28 Oktober 2018</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gallery.html"><img src="images/2.jpg"></a>
+    <div class="desc">Painah bin malik</div>
+    <div class="desc">28 Oktober 2018</div>
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="mySlides">
+	<div class="konten">
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gallery.html"><img src="images/3.jpg"></a>
+    <div class="desc">Painah bin malik</div>
+    <div class="desc">28 Oktober 2018</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gallery.html"><img src="images/2.jpg"></a>
+    <div class="desc">Painah bin malik</div>
+    <div class="desc">28 Oktober 2018</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gallery.html"><img src="images/3.jpg"></a>
+    <div class="desc">Painah bin malik</div>
+    <div class="desc">28 Oktober 2018</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gallery.html"><img src="images/2.jpg"></a>
+    <div class="desc">Painah bin malik</div>
+    <div class="desc">28 Oktober 2018</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gallery.html"><img src="images/3.jpg"></a>
+    <div class="desc">Painah bin malik</div>
+    <div class="desc">28 Oktober 2018</div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="clearfix" style="background-color: #ffffff"></div>
+
+<div class="center">
+  <div class="section">
+    <button class="button light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+    <button class="button light-grey" onclick="plusDivs(1)">Next ❯</button>
+  </div>
+  <div class="section2"></div>
+  <button class="button demo" onclick="currentDiv(1)">1</button> 
+  <button class="button demo" onclick="currentDiv(2)">2</button> 
+  <button class="button demo" onclick="currentDiv(3)">3</button> 
+</div>
+
+
+<div style="padding:6px;">
+  <h1>Best Testimony</h1>
+</div>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" red", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " red";
+}
+</script>
+
+<!-- One -->
+      <section id="one" class="wrapper style1">
+        <div class="inner">
+          <article class="feature left">
+            <span class="image"><img src="images/15.jpg" alt="" /></span>
+            <div class="content">
+              <h2>Painah bin malik</h2>
+              <p style="text-align: justify;">Dear Wida Wedding team,
+				Previously I was sorry and I just arrived home after a week ago we left the city. I'm really sorry to just give you the test now, because you need to think of the words "* don't mind *" to appreciate our event on February 23, 2019 as a whole that has been arranged and managed by Wida Wedding team.
+				* For the mother of Wida *,
+				Thanks bund, Akad make up and the reception look, I really like it! Alhamdulillah, there are many people who comment beautifully and surprisingly amazed by the look, I was really scared at first, about the beauty or what, but because I'm _trust_ and mother, thank God the results aren't disappointing    I love my look head to toe. The reception dresses that I choose and pakepun are many who like bunds, what an amazing_. Hihihi
+				</p>
+              <ul class="actions">
+                <li>
+                  <a href="#" class="button2 alt">More</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article class="feature right">
+            <span class="image"><img src="images/16.jpg" alt="" /></span>
+            <div class="content">
+              <h2>Paijah bin malik</h2>
+              <p style="text-align: justify;">Dear Wida Wedding team,
+				Previously I was sorry and I just arrived home after a week ago we left the city. I'm really sorry to just give you the test now, because you need to think of the words "* don't mind *" to appreciate our event on February 23, 2019 as a whole that has been arranged and managed by Wida Wedding team.
+				* For the mother of Wida *,
+				Thanks bund, Akad make up and the reception look, I really like it! Alhamdulillah, there are many people who comment beautifully and surprisingly amazed by the look, I was really scared at first, about the beauty or what, but because I'm _trust_ and mother, thank God the results aren't disappointing    I love my look head to toe. The reception dresses that I choose and pakepun are many who like bunds, what an amazing_. Hihihi</p>
+              <ul class="actions">
+                <li>
+                  <a href="#" class="button2 alt">More</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+
+
+<div class="ngisor">
+      <div class="footer-grids">
+        <div class="footer siji">
+          <h3>More About Company</h3>
+          <p style="text-align: justify;"> Wedding Organizer is a special service that helps prospective brides & families in the planning and supervision of the implementation of a series of wedding parties in accordance with a predetermined schedule. WO also manages wedding events from the start of the marriage contract, traditional ceremonies, aids, catering, bridal makeup, documentation and others. In 1989 Ms. Yayah Rumdayah formed a Wedding Organizer which was named the WO bridestory.</p>
+          <p class="catetan">- Rizqi Muahmmad Hakim, CEO</p>
+          <div class="clear"></div>
+        </div>
+        <div class="footer loro">
+          <h3>Keep Connected</h3>
+          <ul>
+            <li><a class="fb" href="#"><i></i>Like us on Facebook</a></li>
+            <li><a class="fb1" href="#"><i></i>Follow us on Twitter</a></li>
+            <li><a class="fb2" href="#"><i></i>Add us on Google Plus</a></li>
+            <li><a class="fb3" href="#"><i></i>Follow us on Dribbble</a></li>
+            <li><a class="fb4" href="#"><i></i>Follow us on Pinterest</a></li>
+          </ul>
+        </div>
+        <div class="footer telu">
+          <h3>Contact Information</h3>
+          <ul>
+            <li>Bride Stoty <span>Yogyakarta</span>jl. janti no 543241</li>
+            <li class="nomor">1234567890  </li>
+            <li><a href="mailto:info@example.com">mail@bridestory.com</a> </li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="ngisordewe">
+        <div class="dewe-mid">
+            <p class="footer-gd">© 2019 BrideStory. All Rights Reserved | Design by <a href="https://bridestory.com/" target="_blank">BrideStory</a></p>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>    
+
+</body>
+</html>
